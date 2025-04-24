@@ -1,4 +1,4 @@
-## Infrastructure as Code using Terraform（学習用兼完全な趣味）
+## Infrastructure as Code using Terraform（学習用・完全な趣味）
 
 ## ディレクトリ構成
 
