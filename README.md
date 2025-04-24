@@ -4,18 +4,21 @@
 
 ```css
 terraform/
-├── provider.tf
-├── variables.tf
-├── vpc.tf
-├── subnet.tf
-├── internet_gateway.tf
-├── nat_gateway.tf
-├── route_table.tf
-├── security_groups.tf
-├── ecs.tf
-├── alb.tf
-├── rds.tf
-├── s3.tf
-├── cloudfront.tf
-└── main.tf  （必要に応じて）
+├── alb.tf                  # Application Load Balancer関連の設定
+├── cloudfront.tf          # CloudFrontの設定
+├── ecs.tf                 # ECSクラスターやサービス定義
+├── internet_gateway.tf    # インターネットゲートウェイの設定
+├── local_file.tf          # ローカルファイル出力など（例：Terraform output用）
+├── main.tf                # メイン設定ファイル（entry point）
+├── nat_gateway.tf         # NATゲートウェイの設定
+├── provider.tf            # プロバイダー（例：AWS）定義
+├── rds.tf                 # RDSインスタンスの設定
+├── README.md              # プロジェクトの概要や使用方法など
+├── route_table.tf         # ルートテーブル関連の設定
+├── route53.tf             # Route 53（DNS）設定
+├── s3.tf                  # S3バケット定義（静的ホスティングやログ保存など）
+├── security_groups.tf     # セキュリティグループの定義
+├── subnet.tf              # サブネットの設定
+├── variables.tf           # 変数定義ファイル
+└── vpc.tf                 # VPCの定義
 ```
