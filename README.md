@@ -4,7 +4,7 @@
 
 ```css
 terraform/
-├── alb.tf                  # Application Load Balancer関連の設定
+├── alb.tf                 # Application Load Balancer関連の設定
 ├── cloudfront.tf          # CloudFrontの設定
 ├── ecs.tf                 # ECSクラスターやサービス定義
 ├── internet_gateway.tf    # インターネットゲートウェイの設定
